@@ -1,8 +1,8 @@
 package logic;
 
 public class WierszTrojkataPascala {
-    private int n;
-    private int[] arr;
+    private final int n;
+    private final int[] arr;
 
     public WierszTrojkataPascala(int n) {
         this.n = n;
